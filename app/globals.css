@@ -13,6 +13,13 @@ body,
   background-image: radial-gradient(
     circle farthest-side at var(--x) var(--y),
     hsla(0, 0%, 100%, 0.8) 0%,
-    transparent 100px
+    transparent 80px
   );
+}
+
+.ball {
+  top: var(--y);
+  left: var(--x);
+  border-radius: 50%;
+  /* border: 15px solid #333333; */
 }
