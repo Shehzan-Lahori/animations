@@ -25,16 +25,16 @@ const EyeBallEffect = () => {
   return (
     <>
       <div className="bg-black h-screen items-center justify-center flex">
-        <div className="eyes flex gap-x-8 ">
-          <div className="eye bg-white h-[120px] w-[240px] items-center justify-center flex relative overflow-hidden rounded-[50%]">
+        <div className="eyes group flex gap-x-8 ">
+          <div className="eye bg-white h-[120px] w-[240px]  items-center justify-center flex relative overflow-hidden rounded-[50%] group-hover:shadow-2xl group-hover:shadow-red-900 transform duration-300 ease-in-out">
             <div
-              className="ball h-[40px] w-[40px] bg-black absolute rounded-[50%] border-[solid_#333333] border-[15px] translate-x-[-50%] translate-y-[-50%]"
+              className="ball h-[40px] w-[40px] bg-black absolute rounded-[50%] border-[solid_#333333] border-[15px]  translate-x-[-50%] translate-y-[-50%] "
               ref={eyeBallRef1}
             ></div>
           </div>
-          <div className="eye bg-white h-[120px] w-[240px] items-center justify-center flex relative overflow-hidden rounded-[50%]">
+          <div className="eye bg-white h-[120px] w-[240px] items-center justify-center flex relative overflow-hidden rounded-[50%] group-hover:shadow-2xl group-hover:shadow-red-900 transform duration-300 ease-in-out">
             <div
-              className="ball h-[40px] w-[40px] bg-black absolute rounded-[50%] border-[solid_#333333] border-[15px] translate-x-[-50%] translate-y-[-50%]"
+              className="ball h-[40px] w-[40px] bg-black absolute rounded-[50%] border-[solid_#333333] border-[15px] translate-x-[-50%] translate-y-[-50%] "
               ref={eyeBallRef2}
             ></div>
           </div>

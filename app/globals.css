@@ -17,9 +17,12 @@ body,
   );
 }
 
+.eye {
+  width: 240px;
+  border-radius: 50%;
+}
+
 .ball {
   top: var(--y);
   left: var(--x);
-  border-radius: 50%;
-  /* border: 15px solid #333333; */
 }
